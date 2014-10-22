@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD6C583B19F3971F00618FCF /* Hypno.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6C583719F3971F00618FCF /* Hypno.png */; };
+		CD6C583C19F3971F00618FCF /* Hypno@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6C583819F3971F00618FCF /* Hypno@2x.png */; };
+		CD6C583D19F3971F00618FCF /* Time.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6C583919F3971F00618FCF /* Time.png */; };
+		CD6C583E19F3971F00618FCF /* Time@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6C583A19F3971F00618FCF /* Time@2x.png */; };
 		CDA8C9DF19F2E6BC00C2FE9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA8C9DE19F2E6BC00C2FE9E /* Foundation.framework */; };
 		CDA8C9E119F2E6BC00C2FE9E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA8C9E019F2E6BC00C2FE9E /* CoreGraphics.framework */; };
 		CDA8C9E319F2E6BC00C2FE9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA8C9E219F2E6BC00C2FE9E /* UIKit.framework */; };
@@ -19,6 +23,10 @@
 		CDA8C9FA19F2E6BC00C2FE9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA8C9E219F2E6BC00C2FE9E /* UIKit.framework */; };
 		CDA8CA0219F2E6BC00C2FE9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDA8CA0019F2E6BC00C2FE9E /* InfoPlist.strings */; };
 		CDA8CA0419F2E6BC00C2FE9E /* HypnoNerdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA8CA0319F2E6BC00C2FE9E /* HypnoNerdTests.m */; };
+		CDA8CA0F19F2E71100C2FE9E /* BNRHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA8CA0E19F2E71100C2FE9E /* BNRHypnosisView.m */; };
+		CDA8CA1219F2E74700C2FE9E /* BNRHypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA8CA1119F2E74700C2FE9E /* BNRHypnosisViewController.m */; };
+		CDA8CA1519F2EBF700C2FE9E /* BNRReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA8CA1419F2EBF700C2FE9E /* BNRReminderViewController.m */; };
+		CDA8CA1719F2ED7200C2FE9E /* BNRReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDA8CA1619F2ED7200C2FE9E /* BNRReminderViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD6C583719F3971F00618FCF /* Hypno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hypno.png; sourceTree = "<group>"; };
+		CD6C583819F3971F00618FCF /* Hypno@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hypno@2x.png"; sourceTree = "<group>"; };
+		CD6C583919F3971F00618FCF /* Time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Time.png; sourceTree = "<group>"; };
+		CD6C583A19F3971F00618FCF /* Time@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Time@2x.png"; sourceTree = "<group>"; };
 		CDA8C9DB19F2E6BC00C2FE9E /* HypnoNerd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HypnoNerd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA8C9DE19F2E6BC00C2FE9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CDA8C9E019F2E6BC00C2FE9E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +60,13 @@
 		CDA8C9FF19F2E6BC00C2FE9E /* HypnoNerdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HypnoNerdTests-Info.plist"; sourceTree = "<group>"; };
 		CDA8CA0119F2E6BC00C2FE9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CDA8CA0319F2E6BC00C2FE9E /* HypnoNerdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnoNerdTests.m; sourceTree = "<group>"; };
+		CDA8CA0D19F2E71100C2FE9E /* BNRHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHypnosisView.h; sourceTree = "<group>"; };
+		CDA8CA0E19F2E71100C2FE9E /* BNRHypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHypnosisView.m; sourceTree = "<group>"; };
+		CDA8CA1019F2E74700C2FE9E /* BNRHypnosisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHypnosisViewController.h; sourceTree = "<group>"; };
+		CDA8CA1119F2E74700C2FE9E /* BNRHypnosisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHypnosisViewController.m; sourceTree = "<group>"; };
+		CDA8CA1319F2EBF700C2FE9E /* BNRReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRReminderViewController.h; sourceTree = "<group>"; };
+		CDA8CA1419F2EBF700C2FE9E /* BNRReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRReminderViewController.m; sourceTree = "<group>"; };
+		CDA8CA1619F2ED7200C2FE9E /* BNRReminderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRReminderViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +126,19 @@
 		CDA8C9E419F2E6BC00C2FE9E /* HypnoNerd */ = {
 			isa = PBXGroup;
 			children = (
+				CD6C583719F3971F00618FCF /* Hypno.png */,
+				CD6C583819F3971F00618FCF /* Hypno@2x.png */,
+				CD6C583919F3971F00618FCF /* Time.png */,
+				CD6C583A19F3971F00618FCF /* Time@2x.png */,
+				CDA8CA0D19F2E71100C2FE9E /* BNRHypnosisView.h */,
+				CDA8CA0E19F2E71100C2FE9E /* BNRHypnosisView.m */,
+				CDA8CA1019F2E74700C2FE9E /* BNRHypnosisViewController.h */,
+				CDA8CA1119F2E74700C2FE9E /* BNRHypnosisViewController.m */,
 				CDA8C9ED19F2E6BC00C2FE9E /* BNRAppDelegate.h */,
 				CDA8C9EE19F2E6BC00C2FE9E /* BNRAppDelegate.m */,
+				CDA8CA1319F2EBF700C2FE9E /* BNRReminderViewController.h */,
+				CDA8CA1419F2EBF700C2FE9E /* BNRReminderViewController.m */,
+				CDA8CA1619F2ED7200C2FE9E /* BNRReminderViewController.xib */,
 				CDA8C9F019F2E6BC00C2FE9E /* Images.xcassets */,
 				CDA8C9E519F2E6BC00C2FE9E /* Supporting Files */,
 			);
@@ -220,7 +250,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD6C583E19F3971F00618FCF /* Time@2x.png in Resources */,
+				CD6C583D19F3971F00618FCF /* Time.png in Resources */,
+				CDA8CA1719F2ED7200C2FE9E /* BNRReminderViewController.xib in Resources */,
 				CDA8C9E919F2E6BC00C2FE9E /* InfoPlist.strings in Resources */,
+				CD6C583B19F3971F00618FCF /* Hypno.png in Resources */,
+				CD6C583C19F3971F00618FCF /* Hypno@2x.png in Resources */,
 				CDA8C9F119F2E6BC00C2FE9E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,8 +275,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDA8CA1219F2E74700C2FE9E /* BNRHypnosisViewController.m in Sources */,
 				CDA8C9EB19F2E6BC00C2FE9E /* main.m in Sources */,
 				CDA8C9EF19F2E6BC00C2FE9E /* BNRAppDelegate.m in Sources */,
+				CDA8CA1519F2EBF700C2FE9E /* BNRReminderViewController.m in Sources */,
+				CDA8CA0F19F2E71100C2FE9E /* BNRHypnosisView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +480,7 @@
 				CDA8CA0919F2E6BC00C2FE9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDA8CA0A19F2E6BC00C2FE9E /* Build configuration list for PBXNativeTarget "HypnoNerdTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +489,7 @@
 				CDA8CA0C19F2E6BC00C2FE9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
